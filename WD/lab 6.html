@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.box{
+			background-color: red;
+			height: 50vh;
+			width: 50vh;
+			animation-name: sid;
+			animation-duration: 1s;
+			animation-direction: reverse;
+			animation-iteration: infinite;
+			position: relative;
+			animation-timing-function:linear;
+		}
+		@keyframes sid
+		{
+			from{background-color: red;}
+			to{background-color: yellow;}
+			0%{top: 0px;left: 0px;background-color: green;}
+			25%{top: 20px;left: 50px;background-color: grey;}
+			50%{top: 100px;left: 90px;background-color: aqua;}
+			75%{top: 40px;left: 0px;background-color: white;}
+			100%{top: 100px;left: 50px;background-color: black;}
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab 6</title>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>circle</title>
+	<style type="text/css">
+		.ball{
+			height: 96vh;
+			width:92%;
+			background-color: black;
+			z-index: -10;
+			position: absolute;
+		}
+		.circle1{
+			background-color: red;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani1;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle2{
+			background-color: yellow;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani2;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle3{
+			background-color: darkgreen;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani3;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle4{
+			background-color: blue;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani4;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle5{
+			background-color: violet;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani5;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle6{
+			background-color: #5dc907;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani5;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle7{
+			background-color: #00a93d;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani7;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		.circle8{
+			background-color: #f0ae4b;
+			border-radius: 100%;
+			top: 43vh;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-name: ani8;
+			animation-direction: alternate;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+		}
+		
+		@keyframes ani1 {
+			0%{left: 0px;top: 43vh;}
+			33%{left: 94%; top: 43vh;}
+			66%{left: 47%;top: 0vh;}
+			100%{left: 0px;top: 43vh;}
+
+		}
+		@keyframes ani2 {
+			0%{left: 0px;top: 43vh;}
+			33%{left: 94%; top: 43vh;}
+			66%{left: 47%;top: 43vh;}
+			100%{left: 0px;top: 43vh;}
+
+		}
+		@keyframes ani3 {
+			0%{left: 0px;top: 43vh;}
+			33%{left: 94%; top: 43vh;}
+			66%{left: 47%; top: 81vh;}
+			100%{left: 0px;top: 43vh;}
+
+		}
+		@keyframes ani4 {
+			0%{left: 46%;top: 0vh;}
+			33%{left: 46%; top: 81vh;}
+			66%{left: 0px; top: 43vh;}
+			100%{left: 46%;top: 0vh;}
+
+		}
+		@keyframes ani5 {	
+			0%{left: 46%;top: 0vh;}
+			33%{left: 46%; top: 81vh;}
+			66%{left: 46%; top: 43vh;}
+			100%{left: 46%;top: 0vh;}
+
+		}
+		@keyframes ani6 {
+			0%{left: 46%;top: 0vh;}
+			33%{left: 46%; top: 81vh;}
+			66%{left: 92%; top: 43vh;}
+			100%{left: 46%;top: 0vh;}
+
+		}
+		@keyframes ani7 {
+			0%{left: 46%;top: 81vh;}
+			33%{left: 46%; top: 0vh;}
+			66%{left: 0%; top: 43vh;}
+			100%{left: 46%;top: 81vh;}
+		}
+		@keyframes ani8 {
+			0%{left: 46%;top: 81vh;}
+			33%{left: 46%; top: 0vh;}
+			66%{left: 46%; top: 43vh;} 	
+			100%{left: 46%;top: 81vh;}
+
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="ball">
+		<div class="circle1"></div>
+		<div class="circle2"></div>
+		<div class="circle3"></div>
+		<div class="circle4"></div>
+		<div class="circle5"></div>
+		<div class="circle6"></div>
+		<div class="circle7"></div>
+		<div class="circle8"></div>
+		
+	</div>
+</body>
+</html>

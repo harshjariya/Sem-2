@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+ 	<script type="text/javascript">
+ 		
+ 		fuction MyfuctionA(callback){
+ 			console.log("inside function A");
+ 			callback();
+ 		}
+ 		fuction MyfunctionB(){
+ 			console.log("inside function B");
+
+ 		}
+ 		MyfuctionA(MyfuctionB);
+
+ 		let arrayA = [1,2,3,4];
+ 		let arrayB = [...arrayA,5,6,7];
+ 		arrayC = [...arrayA,...arrayB];
+ 		console.log(arrayB);
+ 		console.log(arrayC);
+
+ 		let newArrayA = [1,2,3,4,5]
+ 		let [a,b,c,d] = newArrayA;
+
+ 	</script>
+</body>
+</html>
